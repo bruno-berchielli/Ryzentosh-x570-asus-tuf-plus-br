@@ -588,6 +588,8 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1800,6 +1802,10 @@
 			<integer>5</integer>
 			<key>PickerVariant</key>
 			<string>Auto</string>
+			<key>LauncherOption</key>
+			<string>Full</string>
+			<key>LauncherPath</key>
+			<string>Default</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1849,8 +1855,6 @@
 			<integer>0</integer>
 			<key>AuthRestart</key>
 			<true/>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>DmgLoading</key>
 			<string>Signed</string>
 			<key>EnablePassword</key>
@@ -1999,6 +2003,8 @@
 			<string>C02DP0UQHX87</string>
 			<key>SystemUUID</key>
 			<string>578352A3-A4AD-4863-A151-FCCA71A91A9D</string>
+			<key>MaxBIOSVersion</key>
+			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -2008,6 +2014,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -2153,6 +2161,8 @@
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
+			<false/>
+			<key>DisableSecurityPolicy</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
